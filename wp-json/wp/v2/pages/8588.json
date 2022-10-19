@@ -1,0 +1,65 @@
+{
+  "id": 8588,
+  "date": "2021-12-28T15:54:57",
+  "date_gmt": "2021-12-28T10:24:57",
+  "guid": { "rendered": "https://www.cry.org/?page_id=8588" },
+  "modified": "2021-12-28T15:57:00",
+  "modified_gmt": "2021-12-28T10:27:00",
+  "slug": "404page",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.cry.org/404page/",
+  "title": { "rendered": "404 Page" },
+  "content": {
+    "rendered": "\n<div class=\"yellowfellow-hero-wrapper approach-hero-wrapper rel-wrapper\">\n<div class=\"about-hero-caption\" style=\"padding-top: 5rem;\">\n<h1 class=\"hero-title\" style=\"display: none;\">#YellowFellow</h1>\n</div>\n<p><img class=\"home-img-separator\" style=\"display: none;\" src=\"/wp-content/themes/cry/images/yellowfellow-banner.jpg\" alt=\"Yellow Fellow banner\"/></p>\n<p><img class=\"about-mission-crayon-alt\" style=\"display: none;\" src=\"/wp-content/themes/cry/images/crayon-strip-bottom-2.png\" alt=\"CRY Crayon\"/></p>\n</div>\n\n<div class=\"district-model-block-wrapper yellow-fellow-why-socks\">\n<div class=\"home-stories-wrapper partnership-method-block\">\n<div class=\"home-story-highlight-wrapper\">\n<div class=\"home-story-highlight\">\n<div class=\"home-story-img-wrapper\"><img src=\"/wp-content/uploads/404-image-resized.png\" alt=\"Yellow Fellow\n \"/><br /><img class=\"home-story-brush-patch\" src=\"/wp-content/themes/cry/images/brush-patch.jpg\" alt=\"CRY Brush\"/></div>\n<div class=\"home-story-description-wrapper\">\n<div class=\"home-story-current-description\">\n<h2 class=\"title-primary\">Something&#8217;s <em>amiss!</em></h2>\n<h4 style=\"font-size: 20px;font-weight: 500;\">The page you are trying to reach cannot be found.</h4>\n<p>Here are few links we think might be helpful:</p>\n<ul style=\" text-align: left;\">\n<li><a href=\"/donation/\">Donate to CRY</a> and help create Happier Childhoods</li>\n<li>Read our <a href=\"/blog/\">blog</a></li>\n<li>Learn more <a href=\"/about-stfo/\">about CRY</a></li>\n<li>Explore <a href=\"/volunteering-and-internships/\">volunteering and internship opportunities</a></li>\n</ul>\n<p><button class=\"btn btn-primary\" type=\"button\"><a href=\"/\" style=\"color: #191919;text-decoration: unset;\">Go to Homepage</a></button></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>#YellowFellow Something&#8217;s amiss! The page you are trying to reach cannot be found. Here are few links we think might be helpful: Donate to CRY and help create Happier Childhoods Read our blog Learn more about CRY Explore volunteering and internship opportunities Go to Homepage</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "gen-page.php",
+  "meta": { "_mi_skip_tracking": false },
+  "acf": [],
+  "_links": {
+    "self": [{ "href": "https://www.cry.org/wp-json/wp/v2/pages/8588" }],
+    "collection": [{ "href": "https://www.cry.org/wp-json/wp/v2/pages" }],
+    "about": [{ "href": "https://www.cry.org/wp-json/wp/v2/types/page" }],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.cry.org/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.cry.org/wp-json/wp/v2/comments?post=8588"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://www.cry.org/wp-json/wp/v2/pages/8588/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 8591,
+        "href": "https://www.cry.org/wp-json/wp/v2/pages/8588/revisions/8591"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://www.cry.org/wp-json/wp/v2/media?parent=8588" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}
