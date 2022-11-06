@@ -187,7 +187,7 @@ table {
 
 .owl-carousel .owl-stage {
   position: relative;
-  touch-action:pan-y ;
+  touch-action: pan-y;
   -ms-touch-action: pan-Y
 }
 
@@ -4469,7 +4469,6 @@ span.wpcf7-not-valid-tip {
 
 .about-hero-caption .hero-title {
   display: inline-block;
-  padding-top: 10rem;
   border-bottom: 2px solid #ff9700;
   padding: 0 .5rem 1.5rem;
   margin-bottom: 1.5rem;
@@ -22917,619 +22916,657 @@ form:hover>.is-link-container {
 }
 
 .is-menu.full-width-menu.is-first button.is-search-submit:not([style="display: inline-block;"]),
-.is-menu.sliding.is-first button.is-search-submit:not([style=" display: inline-block;"]){
- visibility:hidden
+.is-menu.sliding.is-first button.is-search-submit:not([style=" display: inline-block;"]) {
+  visibility: hidden
 }
 
 .is-form-style .is-search-submit path {
-  fill:#555
+  fill: #555
 }
 
 .is-form-style input.is-search-submit {
-  text-decoration:none;
-  position:absolute;
-  top:0;
-  right:0
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0
 }
 
 .is-form-style input.is-search-submit {
-  padding:0 10px !important;
-  width:auto
+  padding: 0 10px !important;
+  width: auto
 }
 
 .is-search-icon {
-  width:36px;
-  padding-top:6px !important
+  width: 36px;
+  padding-top: 6px !important
 }
 
 .is-search-icon svg {
-  width:22px;
-  display:inline
+  width: 22px;
+  display: inline
 }
 
-.is-form-style input.is-search-submit, .is-search-icon {
-  display:inline-block !important;
-  color:#666;
-  background:#ededed;
-  box-shadow:none !important;
-  outline:0;
-  margin:0;
-  font-size:14px !important;
-  border:1px solid #ccc;
-  border-radius:0;
-  line-height:1;
-  height:36px;
-  text-transform:capitalize;
-  vertical-align:middle;
-  -webkit-transition:background-color .1s ease-in-out;
-  -moz-transition:background-color .1s ease-in-out;
-  -o-transition:background-color .1s ease-in-out;
-  transition:background-color .1s ease-in-out;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box
+.is-form-style input.is-search-submit,
+.is-search-icon {
+  display: inline-block !important;
+  color: #666;
+  background: #ededed;
+  box-shadow: none !important;
+  outline: 0;
+  margin: 0;
+  font-size: 14px !important;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  line-height: 1;
+  height: 36px;
+  text-transform: capitalize;
+  vertical-align: middle;
+  -webkit-transition: background-color .1s ease-in-out;
+  -moz-transition: background-color .1s ease-in-out;
+  -o-transition: background-color .1s ease-in-out;
+  transition: background-color .1s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
-.is-search-icon:hover, form.is-form-style input.is-search-submit:hover {
-  background:#dcdcdc
+.is-search-icon:hover,
+form.is-form-style input.is-search-submit:hover {
+  background: #dcdcdc
 }
 
 .is-form-style-2 .is-search-submit {
-  display:none
+  display: none
 }
 
 @keyframes rotate-forever {
   0% {
-    transform:rotate(0)
+    transform: rotate(0)
   }
 
   100% {
-    transform:rotate(360deg)
+    transform: rotate(360deg)
   }
 
 }
 
 @keyframes spinner-loader {
   0% {
-    transform:rotate(0)
+    transform: rotate(0)
   }
 
   100% {
-    transform:rotate(360deg)
+    transform: rotate(360deg)
   }
 
 }
 
-.pum-container, .pum-content, .pum-content+.pum-close, .pum-content+.pum-close:active, .pum-content+.pum-close:focus, .pum-content+.pum-close:hover, .pum-overlay, .pum-title {
-  background:0 0;
-  border:none;
-  bottom:auto;
-  clear:none;
-  cursor:default;
-  float:none;
-  font-family:inherit;
-  font-size:medium;
-  font-style:normal;
-  font-weight:400;
-  height:auto;
-  left:auto;
-  letter-spacing:normal;
-  line-height:normal;
-  max-height:none;
-  max-width:none;
-  min-height:0;
-  min-width:0;
-  overflow:visible;
-  position:static;
-  right:auto;
-  text-align:left;
-  text-decoration:none;
-  text-indent:0;
-  text-transform:none;
-  top:auto;
-  visibility:visible;
-  white-space:normal;
-  width:auto;
-  z-index:auto
+.pum-container,
+.pum-content,
+.pum-content+.pum-close,
+.pum-content+.pum-close:active,
+.pum-content+.pum-close:focus,
+.pum-content+.pum-close:hover,
+.pum-overlay,
+.pum-title {
+  background: 0 0;
+  border: none;
+  bottom: auto;
+  clear: none;
+  cursor: default;
+  float: none;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: auto;
+  letter-spacing: normal;
+  line-height: normal;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  overflow: visible;
+  position: static;
+  right: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  top: auto;
+  visibility: visible;
+  white-space: normal;
+  width: auto;
+  z-index: auto
 }
 
-.pum-container .pum-content+.pum-close>span, .pum-content, .pum-title {
-  position:relative;
-  z-index:1
+.pum-container .pum-content+.pum-close>span,
+.pum-content,
+.pum-title {
+  position: relative;
+  z-index: 1
 }
 
-.pum-overlay, html.pum-open.pum-open-overlay-disabled.pum-open-fixed .pum-container, html.pum-open.pum-open-overlay.pum-open-fixed .pum-container {
-  position:fixed
+.pum-overlay,
+html.pum-open.pum-open-overlay-disabled.pum-open-fixed .pum-container,
+html.pum-open.pum-open-overlay.pum-open-fixed .pum-container {
+  position: fixed
 }
 
 .pum-overlay {
-  height:100%;
-  width:100%;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:1999999999;
-  overflow:initial;
-  display:none;
-  transition:.15s ease-in-out
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1999999999;
+  overflow: initial;
+  display: none;
+  transition: .15s ease-in-out
 }
 
-.pum-overlay.pum-form-submission-detected, .pum-overlay.pum-preview {
-  display:block
+.pum-overlay.pum-form-submission-detected,
+.pum-overlay.pum-preview {
+  display: block
 }
 
-.pum-overlay, .pum-overlay *, .pum-overlay :after, .pum-overlay :before, .pum-overlay:after, .pum-overlay:before {
-  box-sizing:border-box
+.pum-overlay,
+.pum-overlay *,
+.pum-overlay :after,
+.pum-overlay :before,
+.pum-overlay:after,
+.pum-overlay:before {
+  box-sizing: border-box
 }
 
 .pum-container {
-  top:100px;
-  position:absolute;
-  margin-bottom:3em;
-  z-index:1999999999
+  top: 100px;
+  position: absolute;
+  margin-bottom: 3em;
+  z-index: 1999999999
 }
 
 .pum-container.pum-responsive {
-  left:50%;
-  margin-left:-47.5%;
-  width:95%;
-  height:auto;
-  overflow:visible
+  left: 50%;
+  margin-left: -47.5%;
+  width: 95%;
+  height: auto;
+  overflow: visible
 }
 
 .pum-container.pum-responsive img {
-  max-width:100%;
-  height:auto
+  max-width: 100%;
+  height: auto
 }
 
 @media only screen and (min-width:1024px) {
   .pum-container.pum-responsive.pum-responsive-nano {
-    margin-left:-5%;
-    width:10%
+    margin-left: -5%;
+    width: 10%
   }
 
   .pum-container.pum-responsive.pum-responsive-micro {
-    margin-left:-10%;
-    width:20%
+    margin-left: -10%;
+    width: 20%
   }
 
   .pum-container.pum-responsive.pum-responsive-tiny {
-    margin-left:-15%;
-    width:30%
+    margin-left: -15%;
+    width: 30%
   }
 
   .pum-container.pum-responsive.pum-responsive-small {
-    margin-left:-20%;
-    width:40%
+    margin-left: -20%;
+    width: 40%
   }
 
   .pum-container.pum-responsive.pum-responsive-medium {
-    margin-left:-30%;
-    width:60%
+    margin-left: -30%;
+    width: 60%
   }
 
   .pum-container.pum-responsive.pum-responsive-normal {
-    margin-left:-30%;
-    width:70%
+    margin-left: -30%;
+    width: 70%
   }
 
   .pum-container.pum-responsive.pum-responsive-large {
-    margin-left:-35%;
-    width:80%
+    margin-left: -35%;
+    width: 80%
   }
 
   .pum-container.pum-responsive.pum-responsive-xlarge {
-    margin-left:-47.5%;
-    width:95%
+    margin-left: -47.5%;
+    width: 95%
   }
 
   .pum-container.pum-responsive.pum-position-fixed {
-    position:fixed
+    position: fixed
   }
 
 }
 
 @media only screen and (max-width:1024px) {
   .pum-container.pum-responsive.pum-position-fixed {
-    position:absolute
+    position: absolute
   }
 
 }
 
 .pum-container.custom-position {
-  left:auto;
-  top:auto;
-  margin-left:inherit
+  left: auto;
+  top: auto;
+  margin-left: inherit
 }
 
 .pum-container .pum-title {
-  margin-bottom:.5em
+  margin-bottom: .5em
 }
 
-.pum-container .pum-content>:last-child, .pum-form__message:last-child {
-  margin-bottom:0
+.pum-container .pum-content>:last-child,
+.pum-form__message:last-child {
+  margin-bottom: 0
 }
 
 .pum-container .pum-content:focus {
-  outline:0
+  outline: 0
 }
 
 .pum-container .pum-content>:first-child {
-  margin-top:0
+  margin-top: 0
 }
 
 .pum-container .pum-content+.pum-close {
-  text-decoration:none;
-  text-align:center;
-  line-height:1;
-  position:absolute;
-  cursor:pointer;
-  min-width:1em;
-  z-index:2;
-  background-color:transparent
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  position: absolute;
+  cursor: pointer;
+  min-width: 1em;
+  z-index: 2;
+  background-color: transparent
 }
 
 .pum-container.pum-scrollable .pum-content {
-  overflow:auto;
-  overflow-y:scroll;
-  max-height:95%
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: 95%
 }
 
 .pum-overlay.pum-overlay-disabled {
-  visibility:hidden
+  visibility: hidden
 }
 
 .pum-overlay.pum-overlay-disabled::-webkit-scrollbar {
-  display:block
+  display: block
 }
 
 .pum-overlay.pum-overlay-disabled .pum-container {
-  visibility:visible
+  visibility: visible
 }
 
-.popmake-close, .pum-overlay.pum-click-to-close {
-  cursor:pointer
+.popmake-close,
+.pum-overlay.pum-click-to-close {
+  cursor: pointer
 }
 
-html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
-  overflow:hidden
+html.pum-open.pum-open-overlay,
+html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
+  overflow: hidden
 }
 
 html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
-  padding-right:15px
+  padding-right: 15px
 }
 
 html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
-  overflow-y:scroll;
-  -webkit-overflow-scrolling:touch
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch
 }
 
 html.pum-open.pum-open-overlay-disabled.pum-open-scrollable .pum-overlay.pum-active {
-  position:static;
-  height:auto;
-  width:auto
+  position: static;
+  height: auto;
+  width: auto
 }
 
 .pum-form {
-  margin:0 auto 16px
+  margin: 0 auto 16px
 }
 
 .pum-form__field {
-  margin-bottom:1em
+  margin-bottom: 1em
 }
 
 .pum-form__field label {
-  font-weight:700
+  font-weight: 700
 }
 
-.pum-form__field input[type=date], .pum-form__field select {
-  margin:0 auto;
-  font-size:18px;
-  line-height:26px;
-  text-align:center;
-  padding:3px;
-  vertical-align:middle
+.pum-form__field input[type=date],
+.pum-form__field select {
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  padding: 3px;
+  vertical-align: middle
 }
 
 .pum-form__field select {
-  padding:5px 3px
+  padding: 5px 3px
 }
 
 .pum-form__loader {
-  font-size:2em;
-  animation-duration:.75s;
-  animation-iteration-count:infinite;
-  animation-name:rotate-forever;
-  animation-timing-function:linear;
-  height:.75em;
-  width:.75em;
-  border:.25em solid rgba(0, 0, 0, .5);
-  border-right-color:transparent;
-  border-radius:50%;
-  display:inline-block
+  font-size: 2em;
+  animation-duration: .75s;
+  animation-iteration-count: infinite;
+  animation-name: rotate-forever;
+  animation-timing-function: linear;
+  height: .75em;
+  width: .75em;
+  border: .25em solid rgba(0, 0, 0, .5);
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block
 }
 
 .pum-form__submit {
-  position:relative
+  position: relative
 }
 
 .pum-form__submit .pum-form__loader {
-  margin-left:.5em;
-  border:.25em solid rgba(255, 255, 255, .5);
-  border-right-color:transparent
+  margin-left: .5em;
+  border: .25em solid rgba(255, 255, 255, .5);
+  border-right-color: transparent
 }
 
 .pum-form__messages {
-  display:none;
-  border:1px solid rgba(0, 0, 0, .25);
-  margin-bottom:.5em;
-  padding:1em;
-  position:relative
+  display: none;
+  border: 1px solid rgba(0, 0, 0, .25);
+  margin-bottom: .5em;
+  padding: 1em;
+  position: relative
 }
 
 .pum-form__message {
-  margin-bottom:.5em
+  margin-bottom: .5em
 }
 
 .pum-form__message--error {
-  color:red !important;
-  border-color:red
+  color: red !important;
+  border-color: red
 }
 
 .pum-form__message--success {
-  color:green !important;
-  border-color:green
+  color: green !important;
+  border-color: green
 }
 
-.pum-form--loading, .pum-sub-form .pum-sub-form-loading {
-  opacity:.5
+.pum-form--loading,
+.pum-sub-form .pum-sub-form-loading {
+  opacity: .5
 }
 
-.pum-alignment-left, .pum-form--alignment-left {
-  text-align:left
+.pum-alignment-left,
+.pum-form--alignment-left {
+  text-align: left
 }
 
 .pum-alignment-center {
-  text-align:center
+  text-align: center
 }
 
 .pum-alignment-right {
-  text-align:right
+  text-align: right
 }
 
 .pum-form--alignment-center {
-  text-align:center
+  text-align: center
 }
 
 .pum-form--alignment-right {
-  text-align:right
+  text-align: right
 }
 
 .pum-form--layout-standard .pum-form__field>label {
-  margin-bottom:.25em;
-  display:block
+  margin-bottom: .25em;
+  display: block
 }
 
 .pum-form--layout-inline .pum-form__field {
-  display:inline-block
+  display: inline-block
 }
 
-.pum-form--layout-block .pum-form__field, .pum-form--layout-block button, .pum-form--layout-block div, .pum-form--layout-block input {
-  display:block;
-  width:100%
+.pum-form--layout-block .pum-form__field,
+.pum-form--layout-block button,
+.pum-form--layout-block div,
+.pum-form--layout-block input {
+  display: block;
+  width: 100%
 }
 
 .pum-form--style-default label {
-  font-size:14px;
-  font-weight:700
+  font-size: 14px;
+  font-weight: 700
 }
 
-.pum-form--style-default input[type=email], .pum-form--style-default input[type=text] {
-  background-color:#f8f7f7;
-  margin-bottom:5px;
-  font-size:14px;
-  padding:10px 8px
+.pum-form--style-default input[type=email],
+.pum-form--style-default input[type=text] {
+  background-color: #f8f7f7;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding: 10px 8px
 }
 
 .pum-form--style-default button {
-  font-size:18px;
-  margin:10px 0 0;
-  padding:10px 5px;
-  cursor:pointer
+  font-size: 18px;
+  margin: 10px 0 0;
+  padding: 10px 5px;
+  cursor: pointer
 }
 
 .pum-sub-form p.pum-newsletter-error-msg {
-  margin:0
+  margin: 0
 }
 
 .pum-sub-form .spinner-loader {
-  right:50%;
-  position:absolute;
-  bottom:40%
+  right: 50%;
+  position: absolute;
+  bottom: 40%
 }
 
 .pum-sub-form .spinner-loader:not(:required) {
-  animation:1.5s linear infinite spinner-loader;
-  border-radius:.5em;
-  box-shadow:rgba(0, 0, 51, .3) 1.5em 0 0 0, rgba(0, 0, 51, .3) 1.1em 1.1em 0 0, rgba(0, 0, 51, .3) 0 1.5em 0 0, rgba(0, 0, 51, .3) -1.1em 1.1em 0 0, rgba(0, 0, 51, .3) -1.5em 0 0 0, rgba(0, 0, 51, .3) -1.1em -1.1em 0 0, rgba(0, 0, 51, .3) 0 -1.5em 0 0, rgba(0, 0, 51, .3) 1.1em -1.1em 0 0;
-  display:inline-block;
-  font-size:10px;
-  width:1em;
-  height:1em;
-  margin:1.5em;
-  overflow:hidden;
-  text-indent:100%
+  animation: 1.5s linear infinite spinner-loader;
+  border-radius: .5em;
+  box-shadow: rgba(0, 0, 51, .3) 1.5em 0 0 0, rgba(0, 0, 51, .3) 1.1em 1.1em 0 0, rgba(0, 0, 51, .3) 0 1.5em 0 0, rgba(0, 0, 51, .3) -1.1em 1.1em 0 0, rgba(0, 0, 51, .3) -1.5em 0 0 0, rgba(0, 0, 51, .3) -1.1em -1.1em 0 0, rgba(0, 0, 51, .3) 0 -1.5em 0 0, rgba(0, 0, 51, .3) 1.1em -1.1em 0 0;
+  display: inline-block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin: 1.5em;
+  overflow: hidden;
+  text-indent: 100%
 }
 
 .pum-form__field--consent {
-  text-align:left
+  text-align: left
 }
 
-.pum-form__field--consent.pum-form__field--checkbox label, .pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--inline label {
-  display:inline-block;
-  vertical-align:middle
+.pum-form__field--consent.pum-form__field--checkbox label,
+.pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--inline label {
+  display: inline-block;
+  vertical-align: middle
 }
 
 .pum-form__field--consent.pum-form__field--checkbox label input {
-  display:inline-block;
-  width:inherit;
-  margin:0;
-  vertical-align:middle
+  display: inline-block;
+  width: inherit;
+  margin: 0;
+  vertical-align: middle
 }
 
 .pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--inline label input {
-  display:inline-block;
-  width:inherit;
-  margin:0;
-  vertical-align:middle
+  display: inline-block;
+  width: inherit;
+  margin: 0;
+  vertical-align: middle
 }
 
 .pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--inline label+label {
-  margin-left:1em
+  margin-left: 1em
 }
 
 .pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--stacked label {
-  display:block;
+  display: block;
   /* vertical-align:middle */
 }
 
 .pum-form__field--consent.pum-form__field--radio .pum-form__consent-radios.pum-form__consent-radios--stacked label input {
-  display:inline-block;
-  width:inherit;
-  margin:0;
-  vertical-align:middle
+  display: inline-block;
+  width: inherit;
+  margin: 0;
+  vertical-align: middle
 }
 
 .pum-container iframe.formidable {
-  width:100%;
-  overflow:visible
+  width: 100%;
+  overflow: visible
 }
 
-.pika-single, body div#ui-datepicker-div[style] {
-  z-index:9999999999 !important
+.pika-single,
+body div#ui-datepicker-div[style] {
+  z-index: 9999999999 !important
 }
 
-[data-class=wpcf7cf_group], .wpcf7cf_remove, .wpcf7cf_add {
-  display:none
+[data-class=wpcf7cf_group],
+.wpcf7cf_remove,
+.wpcf7cf_add {
+  display: none
 }
 
 .wpcf7cf_repeater_sub {
-  margin-bottom:20px
+  margin-bottom: 20px
 }
 
-.wpcf7cf_repeater_controls, .wpcf7cf_step_controls {
-  display:flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  margin-top:20px
+.wpcf7cf_repeater_controls,
+.wpcf7cf_step_controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px
 }
 
 .wpcf7cf_multistep .wpcf7cf_step {
-  width:100%
+  width: 100%
 }
 
 .wpcf7cf_multistep .wpcf7cf_step .step-title {
-  display:none
+  display: none
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots {
-  display:flex;
-  width:100%;
-  margin-bottom:20px;
-  flex-wrap:wrap
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-wrap: wrap
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot .step-index {
-  display:inline-block;
-  border-radius:50%;
-  background:#dfdfdf;
-  color:#000;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  text-align:center
+  display: inline-block;
+  border-radius: 50%;
+  background: #dfdfdf;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot {
-  border-bottom:5px solid #dfdfdf;
-  text-align:center;
-  flex:1;
-  padding:15px;
-  min-width:120px
+  border-bottom: 5px solid #dfdfdf;
+  text-align: center;
+  flex: 1;
+  padding: 15px;
+  min-width: 120px
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot.completed {
-  border-bottom:5px solid #333
+  border-bottom: 5px solid #333
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot.active {
-  border-bottom:5px solid #333;
-  font-weight:700
+  border-bottom: 5px solid #333;
+  font-weight: 700
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot.completed .step-index {
-  background-color:#333;
-  color:#fff
+  background-color: #333;
+  color: #fff
 }
 
 .wpcf7cf_multistep .wpcf7cf_steps-dots .dot.active .step-index {
-  background-color:#333;
-  color:#fff
+  background-color: #333;
+  color: #fff
 }
 
 .wpcf7cf_step_controls .disabled {
-  pointer-events:none;
-  cursor:default;
-  opacity:.5
+  pointer-events: none;
+  cursor: default;
+  opacity: .5
 }
 
 .pgntn-page-pagination {
-  margin:1em 0;
-  padding:0;
-  overflow:hidden;
-  text-align:center !important;
-  clear:both;
-  cursor:default
+  margin: 1em 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center !important;
+  clear: both;
+  cursor: default
 }
 
 .pgntn-page-pagination .dots {
-  display:inline-block;
-  text-align:center;
-  margin-bottom:.5em;
-  margin-left:.5em;
-  padding:.3em .5em
+  display: inline-block;
+  text-align: center;
+  margin-bottom: .5em;
+  margin-left: .5em;
+  padding: .3em .5em
 }
 
-.pgntn-multipage .pgntn-elipses, .pgntn-multipage .pgntn-page-pagination-intro {
-  display:inline-block;
-  margin-right:0;
-  text-align:center
+.pgntn-multipage .pgntn-elipses,
+.pgntn-multipage .pgntn-page-pagination-intro {
+  display: inline-block;
+  margin-right: 0;
+  text-align: center
 }
 
 .pgntn-multipage .pgntn-page-pagination-block a:first-of-type {
-  margin-left:0
+  margin-left: 0
 }
 
 .pgntn-multipage .pgntn-page-pagination-block span:first-of-type~a {
-  margin-left:.5em
+  margin-left: .5em
 }
 
-.pgntn-page-pagination-intro, .pgntn-page-pagination a, .pgntn-page-pagination .current {
-  display:inline-block;
-  text-align:center;
-  margin-left:.5rem;
-  margin-bottom:.5rem;
-  padding:.3rem .5rem
+.pgntn-page-pagination-intro,
+.pgntn-page-pagination a,
+.pgntn-page-pagination .current {
+  display: inline-block;
+  text-align: center;
+  margin-left: .5rem;
+  margin-bottom: .5rem;
+  padding: .3rem .5rem
 }
 
 .pgntn-page-pagination a {
-  box-shadow:none !important
+  box-shadow: none !important
 }
 
-div.pgntn-page-pagination-block a.prev, .pgntn-page-pagination-block .next {
-  display:inline-block;
-  float:none
+div.pgntn-page-pagination-block a.prev,
+.pgntn-page-pagination-block .next {
+  display: inline-block;
+  float: none
 }
 
 .about-hero-caption .team-pic {
@@ -23538,4 +23575,34 @@ div.pgntn-page-pagination-block a.prev, .pgntn-page-pagination-block .next {
   border-radius: 50px;
   padding-top: 1rem;
 
+}
+
+.container {
+  background-color: #000;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.col {
+  background-color: #fff;
+  width: 25%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 5px;
+  border-radius: 30px;
+}
+
+.icon {
+  background: #fff;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-bottom: 20px;
 }
