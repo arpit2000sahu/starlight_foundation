@@ -380,7 +380,7 @@ h5 {
 p {
   color: #272727;
   font-weight: 400;
-  font-size: large;
+  font-size: medium;
   line-height: 1.8;
   word-spacing: normal;
   letter-spacing: normal
@@ -23570,8 +23570,8 @@ div.pgntn-page-pagination-block a.prev,
 }
 
 .about-hero-caption .team-pic {
-  width: 60%;
-  height: 60%;
+  width: 800px;
+  height: auto;
   border-radius: 50px;
   padding-top: 1rem;
 
@@ -23584,25 +23584,24 @@ div.pgntn-page-pagination-block a.prev,
 .row {
   display: flex;
   justify-content: space-around;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding: 2%;
+  flex-wrap: wrap;
 }
 
 .col {
   background-color: #fff;
-  width: 25%;
+  width: 25rem;
   height: auto;
-  padding: 15px;
+  padding: 3%;
   text-align: center;
-  font-size: 5px;
+  font-size: 7px;
   border-radius: 30px;
+  margin: 2%;
 }
 
 .icon {
   background: #fff;
-  width: 6.25rem;
-  height: 6.25rem;
+  width: 7rem;
+  height: 7rem;
   padding-bottom: 20px;
 }
